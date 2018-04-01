@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654A889B207136CC00541042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A889A207136CC00541042 /* AppDelegate.swift */; };
+		654A889D207136CC00541042 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A889C207136CC00541042 /* MasterViewController.swift */; };
+		654A889F207136CC00541042 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A889E207136CC00541042 /* DetailViewController.swift */; };
+		654A88A2207136CC00541042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A88A0207136CC00541042 /* Main.storyboard */; };
+		654A88A4207136D000541042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654A88A3207136D000541042 /* Assets.xcassets */; };
+		654A88A7207136D000541042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A88A5207136D000541042 /* LaunchScreen.storyboard */; };
+		654A88B2207136D000541042 /* UAlberta_Course_CheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A88B1207136D000541042 /* UAlberta_Course_CheckTests.swift */; };
+		654A88BD207136D000541042 /* UAlberta_Course_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654A88AE207136D000541042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654A888F207136CC00541042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654A8896207136CC00541042;
+			remoteInfo = "UAlberta Course Check";
+		};
+		654A88B9207136D000541042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654A888F207136CC00541042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654A8896207136CC00541042;
+			remoteInfo = "UAlberta Course Check";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654A8897207136CC00541042 /* UAlberta Course Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UAlberta Course Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654A889A207136CC00541042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		654A889C207136CC00541042 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		654A889E207136CC00541042 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		654A88A1207136CC00541042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654A88A3207136D000541042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654A88A6207136D000541042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654A88A8207136D000541042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A88AD207136D000541042 /* UAlberta Course CheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAlberta Course CheckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654A88B1207136D000541042 /* UAlberta_Course_CheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAlberta_Course_CheckTests.swift; sourceTree = "<group>"; };
+		654A88B3207136D000541042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A88B8207136D000541042 /* UAlberta Course CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAlberta Course CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAlberta_Course_CheckUITests.swift; sourceTree = "<group>"; };
+		654A88BE207136D000541042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654A8894207136CC00541042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A88AA207136D000541042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A88B5207136D000541042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654A888E207136CC00541042 = {
+			isa = PBXGroup;
+			children = (
+				654A8899207136CC00541042 /* UAlberta Course Check */,
+				654A88B0207136D000541042 /* UAlberta Course CheckTests */,
+				654A88BB207136D000541042 /* UAlberta Course CheckUITests */,
+				654A8898207136CC00541042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654A8898207136CC00541042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654A8897207136CC00541042 /* UAlberta Course Check.app */,
+				654A88AD207136D000541042 /* UAlberta Course CheckTests.xctest */,
+				654A88B8207136D000541042 /* UAlberta Course CheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654A8899207136CC00541042 /* UAlberta Course Check */ = {
+			isa = PBXGroup;
+			children = (
+				654A889A207136CC00541042 /* AppDelegate.swift */,
+				654A889C207136CC00541042 /* MasterViewController.swift */,
+				654A889E207136CC00541042 /* DetailViewController.swift */,
+				654A88A0207136CC00541042 /* Main.storyboard */,
+				654A88A3207136D000541042 /* Assets.xcassets */,
+				654A88A5207136D000541042 /* LaunchScreen.storyboard */,
+				654A88A8207136D000541042 /* Info.plist */,
+			);
+			path = "UAlberta Course Check";
+			sourceTree = "<group>";
+		};
+		654A88B0207136D000541042 /* UAlberta Course CheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				654A88B1207136D000541042 /* UAlberta_Course_CheckTests.swift */,
+				654A88B3207136D000541042 /* Info.plist */,
+			);
+			path = "UAlberta Course CheckTests";
+			sourceTree = "<group>";
+		};
+		654A88BB207136D000541042 /* UAlberta Course CheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */,
+				654A88BE207136D000541042 /* Info.plist */,
+			);
+			path = "UAlberta Course CheckUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654A8896207136CC00541042 /* UAlberta Course Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654A88C1207136D000541042 /* Build configuration list for PBXNativeTarget "UAlberta Course Check" */;
+			buildPhases = (
+				654A8893207136CC00541042 /* Sources */,
+				654A8894207136CC00541042 /* Frameworks */,
+				654A8895207136CC00541042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UAlberta Course Check";
+			productName = "UAlberta Course Check";
+			productReference = 654A8897207136CC00541042 /* UAlberta Course Check.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654A88AC207136D000541042 /* UAlberta Course CheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654A88C4207136D000541042 /* Build configuration list for PBXNativeTarget "UAlberta Course CheckTests" */;
+			buildPhases = (
+				654A88A9207136D000541042 /* Sources */,
+				654A88AA207136D000541042 /* Frameworks */,
+				654A88AB207136D000541042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654A88AF207136D000541042 /* PBXTargetDependency */,
+			);
+			name = "UAlberta Course CheckTests";
+			productName = "UAlberta Course CheckTests";
+			productReference = 654A88AD207136D000541042 /* UAlberta Course CheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		654A88B7207136D000541042 /* UAlberta Course CheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654A88C7207136D000541042 /* Build configuration list for PBXNativeTarget "UAlberta Course CheckUITests" */;
+			buildPhases = (
+				654A88B4207136D000541042 /* Sources */,
+				654A88B5207136D000541042 /* Frameworks */,
+				654A88B6207136D000541042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654A88BA207136D000541042 /* PBXTargetDependency */,
+			);
+			name = "UAlberta Course CheckUITests";
+			productName = "UAlberta Course CheckUITests";
+			productReference = 654A88B8207136D000541042 /* UAlberta Course CheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654A888F207136CC00541042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CREER;
+				TargetAttributes = {
+					654A8896207136CC00541042 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					654A88AC207136D000541042 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 654A8896207136CC00541042;
+					};
+					654A88B7207136D000541042 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 654A8896207136CC00541042;
+					};
+				};
+			};
+			buildConfigurationList = 654A8892207136CC00541042 /* Build configuration list for PBXProject "UAlberta Course Check" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654A888E207136CC00541042;
+			productRefGroup = 654A8898207136CC00541042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654A8896207136CC00541042 /* UAlberta Course Check */,
+				654A88AC207136D000541042 /* UAlberta Course CheckTests */,
+				654A88B7207136D000541042 /* UAlberta Course CheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654A8895207136CC00541042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A88A7207136D000541042 /* LaunchScreen.storyboard in Resources */,
+				654A88A4207136D000541042 /* Assets.xcassets in Resources */,
+				654A88A2207136CC00541042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A88AB207136D000541042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A88B6207136D000541042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654A8893207136CC00541042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A889F207136CC00541042 /* DetailViewController.swift in Sources */,
+				654A889D207136CC00541042 /* MasterViewController.swift in Sources */,
+				654A889B207136CC00541042 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A88A9207136D000541042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A88B2207136D000541042 /* UAlberta_Course_CheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A88B4207136D000541042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A88BD207136D000541042 /* UAlberta_Course_CheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654A88AF207136D000541042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654A8896207136CC00541042 /* UAlberta Course Check */;
+			targetProxy = 654A88AE207136D000541042 /* PBXContainerItemProxy */;
+		};
+		654A88BA207136D000541042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654A8896207136CC00541042 /* UAlberta Course Check */;
+			targetProxy = 654A88B9207136D000541042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		654A88A0207136CC00541042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654A88A1207136CC00541042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		654A88A5207136D000541042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654A88A6207136D000541042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654A88BF207136D000541042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		654A88C0207136D000541042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654A88C2207136D000541042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9873N2B5;
+				INFOPLIST_FILE = "UAlberta Course Check/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654A88C3207136D000541042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9873N2B5;
+				INFOPLIST_FILE = "UAlberta Course Check/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		654A88C5207136D000541042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9873N2B5;
+				INFOPLIST_FILE = "UAlberta Course CheckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UAlberta Course Check.app/UAlberta Course Check";
+			};
+			name = Debug;
+		};
+		654A88C6207136D000541042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9873N2B5;
+				INFOPLIST_FILE = "UAlberta Course CheckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UAlberta Course Check.app/UAlberta Course Check";
+			};
+			name = Release;
+		};
+		654A88C8207136D000541042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9873N2B5;
+				INFOPLIST_FILE = "UAlberta Course CheckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UAlberta Course Check";
+			};
+			name = Debug;
+		};
+		654A88C9207136D000541042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9873N2B5;
+				INFOPLIST_FILE = "UAlberta Course CheckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UAlberta Course Check";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654A8892207136CC00541042 /* Build configuration list for PBXProject "UAlberta Course Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A88BF207136D000541042 /* Debug */,
+				654A88C0207136D000541042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654A88C1207136D000541042 /* Build configuration list for PBXNativeTarget "UAlberta Course Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A88C2207136D000541042 /* Debug */,
+				654A88C3207136D000541042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654A88C4207136D000541042 /* Build configuration list for PBXNativeTarget "UAlberta Course CheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A88C5207136D000541042 /* Debug */,
+				654A88C6207136D000541042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654A88C7207136D000541042 /* Build configuration list for PBXNativeTarget "UAlberta Course CheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A88C8207136D000541042 /* Debug */,
+				654A88C9207136D000541042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654A888F207136CC00541042 /* Project object */;
+}
