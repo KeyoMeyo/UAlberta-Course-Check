@@ -49,6 +49,8 @@
 		654A88B8207136D000541042 /* UAlberta Course CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAlberta Course CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAlberta_Course_CheckUITests.swift; sourceTree = "<group>"; };
 		654A88BE207136D000541042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BDC375207EC583003CF8FB /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Main.strings"; sourceTree = "<group>"; };
+		65BDC376207EC583003CF8FB /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +303,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				654A88A1207136CC00541042 /* Base */,
+				65BDC375207EC583003CF8FB /* fr-CA */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				654A88A6207136D000541042 /* Base */,
+				65BDC376207EC583003CF8FB /* fr-CA */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
