@@ -55,16 +55,9 @@
 		654A88B8207136D000541042 /* UAlberta Course CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAlberta Course CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAlberta_Course_CheckUITests.swift; sourceTree = "<group>"; };
 		654A88BE207136D000541042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65EA88D6207F2DBF00ECA477 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65EA88D9207F2DBF00ECA477 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65EA88DC207F2DBF00ECA477 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65EA88DE207F2DBF00ECA477 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
-		65EA88DF207F2DBF00ECA477 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		65EA88E0207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65EA88E2207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65EA88E4207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65EA88E6207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		65EA88E7207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,7 +226,6 @@
 			knownRegions = (
 				en,
 				Base,
-				fr,
 			);
 			mainGroup = 654A888E207136CC00541042;
 			productRefGroup = 654A8898207136CC00541042 /* Products */;
@@ -327,8 +319,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				654A88A1207136CC00541042 /* Base */,
-				65EA88DE207F2DBF00ECA477 /* fr */,
-				65EA88E6207F2DD800ECA477 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -337,8 +327,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				654A88A6207136D000541042 /* Base */,
-				65EA88DF207F2DBF00ECA477 /* fr */,
-				65EA88E7207F2DD800ECA477 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -346,7 +334,6 @@
 		65EA88D5207F2DBF00ECA477 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65EA88D6207F2DBF00ECA477 /* fr */,
 				65EA88E4207F2DD800ECA477 /* en */,
 			);
 			name = InfoPlist.strings;
@@ -355,7 +342,6 @@
 		65EA88D8207F2DBF00ECA477 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65EA88D9207F2DBF00ECA477 /* fr */,
 				65EA88E2207F2DD800ECA477 /* en */,
 			);
 			name = InfoPlist.strings;
@@ -364,7 +350,6 @@
 		65EA88DB207F2DBF00ECA477 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65EA88DC207F2DBF00ECA477 /* fr */,
 				65EA88E0207F2DD800ECA477 /* en */,
 			);
 			name = InfoPlist.strings;
