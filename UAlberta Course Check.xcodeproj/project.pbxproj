@@ -15,6 +15,7 @@
 		654A88A7207136D000541042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A88A5207136D000541042 /* LaunchScreen.storyboard */; };
 		654A88B2207136D000541042 /* UAlberta_Course_CheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A88B1207136D000541042 /* UAlberta_Course_CheckTests.swift */; };
 		654A88BD207136D000541042 /* UAlberta_Course_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */; };
+		65DEA48B2150060B006C00BA /* CourseData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DEA4892150060B006C00BA /* CourseData.xcdatamodeld */; };
 		65EA88D7207F2DBF00ECA477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EA88D5207F2DBF00ECA477 /* InfoPlist.strings */; };
 		65EA88DA207F2DBF00ECA477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EA88D8207F2DBF00ECA477 /* InfoPlist.strings */; };
 		65EA88DD207F2DBF00ECA477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EA88DB207F2DBF00ECA477 /* InfoPlist.strings */; };
@@ -52,6 +53,7 @@
 		654A88B8207136D000541042 /* UAlberta Course CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAlberta Course CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654A88BC207136D000541042 /* UAlberta_Course_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAlberta_Course_CheckUITests.swift; sourceTree = "<group>"; };
 		654A88BE207136D000541042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DEA48A2150060B006C00BA /* CourseData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CourseData.xcdatamodel; sourceTree = "<group>"; };
 		65EA88E0207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65EA88E2207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65EA88E4207F2DD800ECA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				654A88A3207136D000541042 /* Assets.xcassets */,
 				654A88A5207136D000541042 /* LaunchScreen.storyboard */,
 				654A88A8207136D000541042 /* Info.plist */,
+				65DEA4892150060B006C00BA /* CourseData.xcdatamodeld */,
 				65EA88D8207F2DBF00ECA477 /* InfoPlist.strings */,
 			);
 			path = "UAlberta Course Check";
@@ -273,6 +276,7 @@
 			files = (
 				654A889F207136CC00541042 /* DetailViewController.swift in Sources */,
 				654A889D207136CC00541042 /* MasterViewController.swift in Sources */,
+				65DEA48B2150060B006C00BA /* CourseData.xcdatamodeld in Sources */,
 				654A889B207136CC00541042 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,6 +632,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65DEA4892150060B006C00BA /* CourseData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65DEA48A2150060B006C00BA /* CourseData.xcdatamodel */,
+			);
+			currentVersion = 65DEA48A2150060B006C00BA /* CourseData.xcdatamodel */;
+			path = CourseData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 654A888F207136CC00541042 /* Project object */;
 }

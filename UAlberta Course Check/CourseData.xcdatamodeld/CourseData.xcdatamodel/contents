@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ClassroomBank" representedClassName="ClassroomBank" syncable="YES" codeGenerationType="class">
+        <attribute name="capacity" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="number" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CourseBank" representedClassName="CourseBank" syncable="YES" codeGenerationType="class">
+        <attribute name="number" attributeType="Integer 16" defaultValueString="101" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="subject" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProgramBank" representedClassName="ProgramBank" syncable="YES" codeGenerationType="class">
+        <attribute name="bachelor" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="creditreq" attributeType="Integer 16" defaultValueString="120" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="degree" attributeType="String" syncable="YES"/>
+        <attribute name="faculty" attributeType="String" syncable="YES"/>
+        <attribute name="master" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="phd" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="spec" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="TeacherBank" representedClassName="TeacherBank" syncable="YES" codeGenerationType="class">
+        <attribute name="department" attributeType="String" syncable="YES"/>
+        <attribute name="faculty" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="tempteacher" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CourseBank" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="TeacherBank" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="ClassroomBank" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="ProgramBank" positionX="-18" positionY="27" width="128" height="150"/>
+    </elements>
+</model>
