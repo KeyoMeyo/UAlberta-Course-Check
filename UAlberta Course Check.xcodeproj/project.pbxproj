@@ -208,13 +208,16 @@
 				TargetAttributes = {
 					654A8896207136CC00541042 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					654A88AC207136D000541042 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = 654A8896207136CC00541042;
 					};
 					654A88B7207136D000541042 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = 654A8896207136CC00541042;
 					};
 				};
@@ -486,7 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-Check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -505,7 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-Check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -525,7 +528,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UAlberta Course Check.app/UAlberta Course Check";
 			};
@@ -546,7 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UAlberta Course Check.app/UAlberta Course Check";
 			};
@@ -566,7 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "UAlberta Course Check";
 			};
@@ -586,7 +589,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "creer.UAlberta-Course-CheckUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "UAlberta Course Check";
 			};
